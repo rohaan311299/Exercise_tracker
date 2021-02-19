@@ -27,6 +27,7 @@ connection.once("open",()=>{
 const userRouter=require("./routes/users");
 const exerciseRouter=require("./routes/exercises");
 
+//using the API Routes
 app.use("/exercises",exerciseRouter);
 app.use("/users",userRouter);
 
